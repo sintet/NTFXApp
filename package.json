@@ -1,0 +1,22 @@
+{
+  "name": "ntfxapp",
+  "version": "1.0.0",
+  "description": "'cdp homework'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chernjaga/NTFXApp.git"
+  },
+  "author": "alex_l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chernjaga/NTFXApp/issues"
+  },
+  "homepage": "https://github.com/chernjaga/NTFXApp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
