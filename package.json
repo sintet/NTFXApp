@@ -16,7 +16,8 @@
     "url": "https://github.com/chernjaga/NTFXApp/issues"
   },
   "homepage": "https://github.com/chernjaga/NTFXApp#readme",
-  "dependencies": {
-    "express": "^4.15.4"
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.5.6"
   }
 }
