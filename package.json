@@ -16,7 +16,10 @@
     "url": "https://github.com/chernjaga/NTFXApp/issues"
   },
   "homepage": "https://github.com/chernjaga/NTFXApp#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",

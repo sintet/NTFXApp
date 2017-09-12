@@ -1,2 +1,6 @@
-import {a} from './components/a.js';
-import {b} from './components/b.js';
+// eapplication entry point
+
+import {Al_Application} from './components/index.js';
+
+
+

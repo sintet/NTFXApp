@@ -8,7 +8,7 @@ module.exports = {
 
    entry: {
       home: './index.js',
-      style: './style.scss'
+      style: './styles/style.scss'
    },
 
    output: {
