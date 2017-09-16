@@ -1,3 +1,54 @@
 // styles entry point
+$white: #dfe0e2;
+$pink: #f55263;
+$lightGrey: #8c8c8d;
+$darkgrey: #3c3c3c;
 
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+div {
+   position: relative;
+}
+button {
+   border: none;
+   border-radius: 3px;
+}
+
+@import "app_movieDescription";
+@import "app_content_header";
+@import "app_content_container";
+@import "app_content_movPreview";
 @import "app_header_container";
+@import "app_header_search";
+
+#app_header {
+   background-color: #000;
+}
+
+.positionedContent {
+   position: relative;
+   width: 85%;
+   margin: 0 auto;
+   display: block;
+}
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.buttonActive {
+   background-color: $pink;
+   color: $white;
+   transition: 0.4s;
+}
+.buttonPassive{
+   @extend .buttonActive;
+   background-color: $darkgrey;  
+}
+.largButton {
+   font-size: 1.5em;
+   padding: 10px 50px;
+}

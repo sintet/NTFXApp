@@ -1,0 +1,45 @@
+// moview items preview
+$darkgrey: #3c3c3c;
+$itemWidth: 180px;
+
+.app_movieItem_list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.app_movieItem_list li{
+   list-style: none;
+   padding: 0 10px;
+}
+.app_mov_preview {
+   margin: 20px 0 30px;
+}
+.app_mov_preview_image {
+   width: $itemWidth;
+   height: 270px;
+   img {
+      width: 100%;
+      height: inherit;
+   }
+}
+.app_mov_preview_decription {
+   width: $itemWidth;
+   display: flex;
+   justify-content: space-between;
+   color: $darkgrey;
+   padding: 12px 0;
+}
+.app_mov_preview_decription_year div{
+   border: 1px $darkgrey solid;
+   border-radius: 2px;
+   padding: 3px 7px;
+   font-size: 10px;
+}
+.app_mov_preview_decription_title {
+   h4 {
+      font-size: 18px;      
+   }
+   p {
+      font-size: 14px;      
+   }
+}

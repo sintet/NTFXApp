@@ -1,0 +1,26 @@
+// header of content
+$whiteBg: #f5f5f5;
+$darkgrey: #3c3c3c;
+$pink: #f55263;
+
+
+#app_content_container_header {
+   background-color: $whiteBg;
+   color: $darkgrey;
+}
+
+#app_content_container_header_sort {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   div {
+      margin-left: 20px;
+   }
+}
+.activSort {
+   color: $pink;
+}
+.sortOption{
+   font-weight: 600;
+   cursor: pointer;
+}

@@ -41,9 +41,16 @@ module.exports = {
                loader: 'babel-loader',
                options: {
                   plugins: ['transform-react-jsx'],
-                  presets: ['env']
+                  presets: ['env'],
                }
             }
+         },
+         {
+            test: /\.(ttf|eot|svg|wwof|png|jpg)(\?v=[0-9]\.[0-9])?$/,
+            loader: 'file-loader',
+            options: {
+               name: '[path][name].[ext]?[hash]'
+            } 
          }
       ]
    },
