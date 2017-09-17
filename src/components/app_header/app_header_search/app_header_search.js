@@ -10,9 +10,9 @@ class AppHeaderSearch extends React.Component {
                   </div>
                   <div id="app_header_search_footer">
                      <div id="app_header_search_footer_filter">
-                        <div>SEARCH BY :</div>
-                        <button className="buttonActive">TITLE</button>
-                        <button className="buttonPassive">DIRECTION</button>                        
+                        <div>SEARCH BY:</div>
+                           <button className="buttonActive">TITLE</button>
+                           <button className="buttonPassive">DIRECTION</button>                        
                      </div>         
                      <button className="buttonActive largButton">SEARCH</button>
                   </div>

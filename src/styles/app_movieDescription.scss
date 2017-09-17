@@ -1,5 +1,47 @@
 // movie Description
+$white: #dfe0e2;
+$pink: #f55263;
+$lightGrey: #8c8c8d;
+$darkgrey: #3c3c3c;
 
 .app_movie_decription {
    display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   color: $lightGrey;
+   width: 100%;
+   padding: 30px 0;
+   div {
+      min-width: 350px;
+   }
+   p {
+      padding: 10px 0;
+   }
+}
+.app_movie_decription_poster{
+   width: 30%;
+   img {
+      width: 100%;
+   }
+}
+.app_movie_decription_text {
+   width: 60%;
+   h2 {
+      color: $pink;
+      font-size: 3em;
+   }
+}
+.app_movie_decription_info {
+   font-size: 1em;
+   color: $white;
+   display: flex;
+   p {
+      width: max-content;
+      margin-right: 100px;
+   }
+   p:last-child {
+      border: 1px $white solid;
+      padding: 10px;
+      border-radius: 4px;
+   }
 }
